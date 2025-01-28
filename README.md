@@ -111,7 +111,7 @@ const database = new connection({
 })
 ``` 
 
-Read about the different between pool and client connection.<br/>
+Learn about the differences between pool and client connection.<br/>
 [https://node-postgres.com/features/pooling](https://node-postgres.com/features/pooling) 
 
 ### Specify the table name
