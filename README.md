@@ -30,10 +30,17 @@ Elegant node.js query builder, provide an interface for mysql and postgresql dri
 - [Delete](#delete)
 
 ### Features
-* Support MysqL and PostgreSQL.
-* Provide diverse methods to cover the majority of SQL statements.
-* Invoke methods in chaining style to make them readable and concise.
-* Use placeholders and filters for query values to prevent SQL Injection.
+**Supports MySQL and PostgreSQL:**
+The query builder is fully compatible with both MySQL and PostgreSQL databases, offering seamless integration for your projects.
+
+**Comprehensive SQL Coverage:**
+Equipped with a variety of methods to handle the majority of SQL statements, simplifying complex operations and reducing boilerplate code.
+
+**Chaining Style for Readability:**
+Methods are designed to be chainable, allowing you to write concise and easily readable queries.
+
+**Built-in Security Measures:**
+Utilizes placeholders and value filters to prevent SQL injection, ensuring your application remains secure and robust.
 
 ### Install via npm
 ``` bash
