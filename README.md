@@ -114,8 +114,13 @@ const database = new connection({
 Learn about the differences between pool and client connection.<br/>
 [https://node-postgres.com/features/pooling](https://node-postgres.com/features/pooling) 
 
-### Specify the table name
-Like the previous example you can determine the name of the table within the connection object by provide the table name to the "es_table" properity ``{es_table: "tablename"}`` or you can use ``table()`` method.
+### Specify the Table Name
+
+To define the table name, you can include it directly in the connection object using the es_table property, as shown below:
+
+{ es_table: "tablename" }
+
+Alternatively, you can dynamically set the table name using the table() method.
 
 **Example**
 ``` javascript
