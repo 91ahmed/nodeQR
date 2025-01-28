@@ -118,7 +118,7 @@ Learn about the differences between pool and client connection.<br/>
 
 To define the table name, you can include it directly in the connection object using the es_table property, as shown below:
 
-{ es_table: "tablename" }
+`{ es_table: "tablename" }`
 
 Alternatively, you can dynamically set the table name using the table() method.
 
