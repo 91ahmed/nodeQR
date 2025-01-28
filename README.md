@@ -79,9 +79,9 @@ database.query((sql) =>
 ```
 
 ### Establish Connection
-To initialize connection just add an object with the database information to the class, you can through this object specify the connection driver, table and the database connection information.
+To establish a connection, simply pass an object containing the database details to the class. This object allows you to define the connection driver, specify the target table, and provide the database connection credentials.
 
-The query builder supports [mysql](https://www.npmjs.com/package/mysql) and [postgresql](https://node-postgres.com/) database drivers, you can specify the driver through "es_driver" property by selecting one of these connection types ( `mysql-client` - `mysql-pool` - `pg-client` - `pg-pool` ). 
+The query builder supports both [MySQL](https://www.npmjs.com/package/mysql) and [PostgreSQL](https://node-postgres.com/) drivers. You can set the desired driver using the "es_driver" property by choosing one of the following options: mysql-client, mysql-pool, pg-client, or pg-pool.
 
 **Example**
 ``` javascript
