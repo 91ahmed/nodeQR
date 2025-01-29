@@ -169,8 +169,11 @@ database.query((sql) =>
 })
 ```
 
-### End Connection
-It is advisable to end the database connection after you are done with the query and to do this you can use ``close()`` method.
+### Closing the Database Connection
+
+It is advisable to close the database connection once you have finished executing queries. This helps free up system resources and prevents potential issues such as connection leaks.
+
+To close the connection, use the `close()` method:
 
 **Example**
 ``` javascript
