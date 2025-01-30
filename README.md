@@ -591,4 +591,4 @@ database.query((sql) =>
 })
 ```
 
-> Note: with insert, delete and update you should call ``save()`` method at the end to execute the qurey.
+> Note: For insert, delete and update you must call the ``save()`` method at the end to execute the qurey.
