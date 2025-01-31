@@ -253,14 +253,6 @@ database.query((sql) =>
 ``` javascript
 database.query((sql) => 
 {
-    /**
-      SELECT 
-      COUNT(id) AS id_count, 
-      MAX(price) AS max_price,
-      MIN(price) AS min_price,
-      SUM(price) AS total_price
-      FROM table
-    **/
     sql.select([
           'COUNT(id) AS id_count', 
           'MAX(price) AS max_price',
