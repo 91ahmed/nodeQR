@@ -141,7 +141,7 @@ const database = new connection({
     }
 })
 
-// specify the table name through table method
+// specify the table name through table method.
 database.table('your-table-name')
 ```
 
