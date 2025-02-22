@@ -1,6 +1,6 @@
 ## node establish sql
 
-Elegant node.js query builder, provide an interface for mysql and postgresql drivers with appropriate methods to build SQL queries.
+An elegant Node.js query builder offering a unified interface for both MySQL and PostgreSQL drivers, featuring intuitive methods to seamlessly construct complex SQL queries with flexibility and precision.
 
 ### Content
 - [Features](#features)
