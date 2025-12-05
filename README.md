@@ -1,4 +1,4 @@
-## node establish sql
+## nodeQR
 
 An elegant Node.js query builder offering a unified interface for both MySQL and PostgreSQL drivers, featuring intuitive methods to seamlessly construct complex SQL queries with flexibility and precision.
 
